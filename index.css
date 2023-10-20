@@ -1,0 +1,91 @@
+body {
+  height: 100vh;
+  font-family: sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: blue;
+}
+.container {
+  width: 90%;
+  height: 100vh;
+  padding: 20px;
+  display: flex;
+}
+.left {
+  margin-left: 100px;
+  flex-basis: 50%;
+  padding: 10px;
+}
+textarea {
+  width: 90%;
+  height: 70vh;
+  background-color: black;
+  color: white;
+  padding: 10px 20px;
+  border: 0;
+  outline: 0;
+  font-size: 18px;
+}
+.right {
+  
+  margin-top: 35px;
+  margin-left: 10px;
+}
+#output-container{
+  width:70vh;
+  height: 70%;
+  background-color: white;
+  padding: 20px;
+  color: black;
+  border: 0;
+  outline: 0;
+}
+.run button {
+  cursor: pointer;
+  background-color: black;
+  color: white;
+  margin-bottom: 5px;
+}
+.run i {
+  cursor: pointer;
+  margin-bottom: 5px;
+}
+.run {
+  display: flex;
+  gap: 70px;
+  margin-left:20px;
+}
+
+@media (max-width: 600px) {
+  body {
+    height: 50%;
+    width: 100%;
+  }
+
+  .container {
+    width: 50%;
+    height: 50%;
+    padding-left: 0px;
+    padding-right: 10px;
+    margin-left: 10px;
+  }
+
+  .run {
+    display: flex;
+    gap: 30px;
+  }
+  .right {
+    padding-right: 40px;
+  }
+  .left {
+    padding-left: 10pxs;
+  }
+}
+
+#output{
+    height: 800px;
+    width: 200px;
+    background-color: white;
+    color: black;
+}
